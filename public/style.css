@@ -1,0 +1,290 @@
+
+
+
+#player{
+	float left;
+	margin-left: 50px;
+	margin-top: 50px;
+
+}
+
+#controls{
+	/* float: left;*/
+         margin-left: 50px;
+
+}
+
+
+
+#square {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+
+#bar{
+	margin-left: 50px;
+	background-color: #ddd;
+	margin left:50px;
+	margin top: 20px;
+	border: 5px solid black;
+	width:715px;
+
+}
+
+
+.glyphicon {
+    font-size: 25px;
+    color:#4CAF50;
+}
+
+body{
+  background-color: #f2f2f2;
+  text-align:center;
+  margin-top:180px;
+}
+
+#box{
+  text-align:left;
+}
+
+#search_btn{
+    display: inline-block;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 50px;
+        border-radius: 5px;
+        background: #e6e6e6;
+}
+#search_btn:hover{
+        background: #ccccff;
+}
+
+#search_btn img{
+        display:block;
+        width: 30px;
+        height: 20px;
+        padding-left: 10px;
+}
+
+#search{
+        height: 25px;
+        width: 300px;
+
+}
+
+#searchBar{
+        text-align:center;
+}
+#list{
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        border: 1px solid black;
+        background:rgba(255,255,255, 0.6);
+}
+
+.container{
+	margin-left:20px;
+}
+.search_img{
+        float:left;
+}
+.title{
+        margin-left: -70px;
+}
+.author{
+        margin-left: 140px;
+}
+
+#create{
+	margin-top: 140px;
+        box-sizing: border-box;
+        width: 400px;
+        height: 500px;
+        display: inline-block;
+        background: #6666ff;
+        font-size: 24pt;
+        color: white;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+
+#player{
+	pointer-events: none;
+}
+
+#join{
+    box-sizing: border-box;
+        width:400px;
+        height: 500px;
+        background: #0066ff;
+        display: inline-block;
+        font-size: 24pt;
+        color: white;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+#join:grow{
+        transition: all .2s ease-in-out;
+}
+#join:hover{
+          transform: scale(1.1);
+}
+#create:grow{
+        transition: all .2s ease-in-out;
+}
+
+#create:hover{
+          transform: scale(1.1);
+}
+
+#login{
+        box-sizing: border-box;
+        width: 400px;
+        height: 500px;
+        display: inline-block;
+        background: #6666ff;
+        font-size: 24pt;
+        color: white;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+#register{
+	margin-top: 190px;
+	box-sizing: border-box;
+        width:400px;
+        height: 500px;
+        background: #0066ff;
+        display: inline-block;
+        font-size: 24pt;
+        color: white;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+#login:grow{
+        transition: all .2s ease-in-out;
+}
+#login:hover{
+          transform: scale(1.1);
+}
+#register:grow{
+        transition: all .2s ease-in-out;
+}
+#register:hover{
+          transform: scale(1.1);
+}
+
+#logUser{
+	 background: #eeeef6;
+ 	 width: 500px;
+ 	 height: 400px;
+ 	 position: absolute;
+ 	 left: 50%;
+ 	 top: 50%;
+ 	 transform: translate(-50%, -50%);
+}
+
+#logUser input[type ="text"]{
+	margin-top:20px;
+	border-radius: 12px;
+	border: 1px solid #6666ff;
+  	border-radius: 10px;
+
+}
+
+#close1{
+	margin-top: 10px;
+	border-radius:5px;
+	width: 30px;
+}                        
+
+#login_btn{
+	margin-right: 10px;
+	margin-top: 20px;
+	width:100px;
+	border-radius: 6px;
+}                 
+#login_btn:hover{
+background: #9999ff;
+}
+#uname{
+margin-top: 120px;
+}                         
+
+#close1:hover{
+	background:#ff9999;
+} 
+
+#regUser{
+         background: #cdd9e5;
+         width: 500px;
+         height: 400px;
+         position: absolute;                                            
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+}
+
+#regUser input[type ="text"]{
+        margin-top:20px;
+        border-radius: 12px;
+        border: 1px solid #66b3ff;
+        border-radius: 10px;
+
+}
+                                                                                  
+#close2{
+        margin-top: 10px;
+        border-radius:5px;
+        width: 30px;
+}
+
+#reg_btn{
+        margin-right: 10px;
+        margin-top: 20px;
+        width:100px;
+        border-radius: 6px;
+}                    
+#reg_btn:hover{
+background: #99ccff;
+}
+#nname{
+margin-top: 120px;
+}
+
+#close2:hover{
+background:#ff9999;
+}
+
+#logout{
+margin-left: 60%;
+margin-top: 10px;
+border-radius: 5px;
+width: 100px;
+background:  #ff8080; 
+font-weight: bold;
+
+}
+
+#logout:hover{
+background: #ff6666;
+color: white;
+}
+
+#createroom{
+	width: 300px;
+}
+#created{
+border-radius: 5px;1:w
+
+}

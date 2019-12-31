@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+<head>	
+	<title>Umaru Tube</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='https://www.youtube.com/iframe_api' async></script>
+</head>
+
+<body>
+
+
+
+
+  <div id = "box" hidden >
+	<div id="player"></div>
+	
+	<div id="controls">
+		<button type="button" id="ply"  class="btn btn-link"><span class="glyphicon glyphicon-play-circle"></span></button>
+		<button type="button" id="pse" class="btn btn-link"><span class="glyphicon glyphicon-remove-circle"></span></button>
+			
+	</div>
+
+	<div id="bar">
+		<div id="square"></div>
+	</div>
+	
+	
+<ul id="messages"></ul> 
+
+  </div>
+
+	<div id="searching" hidden>
+        <div id="searchBar">
+                <form id="searchForm">
+                        <input type="text" id="search" placeholder="Search...">
+                        <button type="button" id="search_btn"><img src="search.png" alt="search icon"></button>
+                </form>
+                	<button type="button" id="prev">Prev </button>
+                	<button type="button" id="next">Next </button><br>
+        	</div><br>
+      		<div id="listContain">
+        	<div id="list"></div>
+	        </div>
+        </div>
+
+
+
+<div id="dd">
+        <div id="container1">
+                <button id="login">Login</button>
+               <button id="register">Other part of project</button>
+        </div>
+        	
+         <button id="logout" hidden>LogOut</button><br>
+        <div id="container2" hidden>
+		<button id="create">Create Room</button>
+                <button id="join">Join Room</button>
+        </div>
+        
+	<div id="logUser" hidden>
+		<p id="uname">Pick a nickname: <input type="text" id="username"></p>
+		<button type="button" id="login_btn"> Login </button>
+		<button type="button" id="close1"> X </button>
+	</div>
+
+	<div id="regUser" hidden>
+               <p id="nname"> New Usernane: <input type="text" id="newusername"></p>
+                New Password: <input type ="text" id="newpassword"><br>
+                <button type="button" id="reg_btn"> Register </button>
+                <button type="button" id="close2"> X </button>
+        </div>
+	<div id="roomname" hidden>
+		<input type="text" id="createroom">
+		<button type="button" id="created">Create Room</button>
+	</div>
+	
+
+
+     	<script src="client.js"></script>
+	<script src ="button.js"></script>
+	<script src ="search.js"></script>
+</div>
+</body>

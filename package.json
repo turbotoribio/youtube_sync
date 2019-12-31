@@ -1,0 +1,26 @@
+{
+  "name": "creative",
+  "version": "1.0.0",
+  "description": "Youtube sync viewing using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-fall-2019/creativeproject-creative_project-451118-466906.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-fall-2019/creativeproject-creative_project-451118-466906/issues"
+  },
+  "homepage": "https://github.com/cse330-fall-2019/creativeproject-creative_project-451118-466906#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "socket.io": "^2.3.0",
+    "youtube-player": "^5.5.2"
+  }
+}
